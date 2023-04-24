@@ -1,0 +1,57 @@
+.form-group {
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    
+  }
+  
+  input[type="date"],
+  input[type="time"] {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 9px 15px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    input,
+    textarea {
+      font-size: 16px;
+    }
+  
+    button[type="submit"] {
+      font-size: 16px;
+      background-color: blue;
+    }
+  }
+  h2{
+    color: #000000;
+    text-align: center;
+  }
+  body{
+    background-color: rgb(252, 130, 223);
+  }
+
+  
